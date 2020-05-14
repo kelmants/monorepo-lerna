@@ -1,9 +1,8 @@
 {
   "name": "@kelmants/ui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.9",
   "dependencies": {
-    "@kelmants/components": "0.1.0",
+    "@kelmants/components": "^0.1.9",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -38,5 +37,9 @@
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.2",
     "@storybook/react": "^5.3.18"
-  }
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "src/setupTests.js"
+  },
+  "gitHead": "bb6c779e23d1db30581f11ec6aad01f2789d90fb"
 }

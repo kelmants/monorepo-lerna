@@ -1,6 +1,6 @@
 {
   "name": "@kelmants/components",
-  "version": "0.1.0",
+  "version": "0.1.9",
   "description": "Made with create-react-library",
   "author": "kelmants",
   "license": "MIT",
@@ -30,10 +30,10 @@
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "@types/react": "^16.9.27",
-    "microbundle-crl": "^0.13.8",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "gh-pages": "^2.2.0",
+    "microbundle-crl": "^0.13.8",
     "npm-run-all": "^4.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -41,5 +41,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "gitHead": "bb6c779e23d1db30581f11ec6aad01f2789d90fb"
 }
